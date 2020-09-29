@@ -8,6 +8,11 @@
 html {
   background-color: var(--sub-color);
 }
+@media (max-width: 350px) {
+  * {
+    font-size: 1rem;
+  }
+}
 
 h1 {
   font-size: 3em;
@@ -52,21 +57,28 @@ header {
   height: 70%;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  place-content: end center;
   color: white;
   padding: 10px;
+  overflow: hidden;
 }
 
 .jumbo a {
+  width: 120px;
+  text-align: center;
   padding: 2px 10px;
-  border: 1px solid;
   border-radius: 5px;
   cursor: pointer;
-  position: relative;
-  top: 35vh;
   mix-blend-mode: screen;
-  background-color: black;
+  background-color: white;
+  color: black;
+  font-weight: 800;
+}
+
+@media (max-width: 500px) {
+  .jumbo {
+    align-items: flex-start;
+  }
 }
 
 #projects {
@@ -94,15 +106,24 @@ header {
 
 .cards span {
   position: relative;
-  left: 85px;
+  left: 100px;
   top: 10px;
-  background-color: white;
-  border-radius: 50px;
+  background-color: grey;
+  border-radius: 50%;
+  opacity: 0.7;
+  padding: 0.25em;
+  width: 40px;
+  margin: 0 0.2em;
+  text-align: center;
+  transition: 0.3s;
 }
 
-.cards span a {
-  padding: 2px 8px;
-  color: var(--accent-color);
+.cards span:hover {
+  opacity: 1;
+}
+
+.cards a {
+  color: white;
 }
 .project-link {
   float: right;
@@ -115,8 +136,8 @@ header {
   .cards span {
     left: unset;
     top: unset;
-    bottom: 35px;
-    right: 10px;
+    bottom: 50px;
+    right: 7px;
   }
 
   .cards div {
@@ -148,7 +169,7 @@ footer img {
 
 footer .container {
   display: flex;
-  justify-content: center;
+  justify-content: start;
   align-items: center;
 }
 
