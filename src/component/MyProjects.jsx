@@ -22,7 +22,7 @@ export default function MyProjects() {
         name="YelpCamp"
         img="/imgs/yelpcamp.png"
         tech="mongoDB, node.js, express, passport, css"
-        link="http://www.tenshabu.com"
+        link="https://yelpcamp-cjfaquino.wn.r.appspot.com/"
         source="https://github.com/cjfaquno/yelpcamp"
       />
       <Projectprops
