@@ -1,31 +1,49 @@
 import React from 'react';
-import Projectprops from './Projectprops';
+// import Projectprops from './Projectprops';
 
-export default function MyProjects() {
+const Projects = (props) => {
+  return (
+    <div className="item">
+      <a href={props.link} alt={props.name}>
+        <span className="hide">{props.name}</span>
+      </a>
+      <img src={props.img} alt="" />
+
+      <div className="item__overlay">
+        <h3>{props.name}</h3>
+        <div className="item__body">
+          <p>Tech: {props.tech}</p>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default function MyPortfolio() {
   return (
     <main id="projects" className="container">
-      <Projectprops
+      <Projects
         name="Ten Shabu"
         img="/imgs/tenshabu.png"
         tech="react.js, nginx, css"
         link="http://www.tenshabu.com"
         source="https://github.com/cjfaquno/tenshabu"
       />
-      <Projectprops
+      <Projects
         name="Portfolio"
         img="/imgs/portfolio.png"
         tech="react.js, css"
         link="https://cjfaquino.com"
         source="https://github.com/cjfaquino/cjfaquino.github.io/tree/dev"
       />
-      <Projectprops
+      <Projects
         name="YelpCamp"
         img="/imgs/yelpcamp.png"
         tech="mongoDB, node.js, express, passport, css"
         link="https://yelpcamp-cjfaquino.wn.r.appspot.com/"
         source="https://github.com/cjfaquno/yelpcamp"
       />
-      <Projectprops
+      <Projects
         name="Forkify"
         img="/imgs/forkify.png"
         tech="js, webpack, babel"

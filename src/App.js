@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
 import MyFooter from './component/MyFooter';
-import MyProjects from './component/MyProjects';
+import MyPortfolio from './component/MyPortfolio';
 import { Collapse } from 'react-collapse';
 import { Link } from 'react-scroll';
 import './App.css';
 
-function App() {
+export default function App() {
   const [open, setOpen] = useState(false);
   return (
     <div className="App">
@@ -20,11 +20,9 @@ function App() {
       </header>
 
       <Collapse isOpened={open}>
-        <MyProjects />
+        <MyPortfolio />
       </Collapse>
       <MyFooter />
     </div>
   );
 }
-
-export default App;
