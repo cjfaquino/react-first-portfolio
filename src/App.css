@@ -80,7 +80,7 @@ header {
 
 @media (max-width: 500px) {
   header {
-    height: 90vh;
+    height: 100vh;
   }
 }
 
@@ -92,7 +92,7 @@ header {
   border-bottom-right-radius: 15px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: center;
 }
 
 .item {

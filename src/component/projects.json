@@ -1,15 +1,15 @@
 [
   {
     "name": "Ten Shabu",
-    "img": "/imgs/tenshabu.png",
+    "img": "/imgs/tenshabu.jpg",
     "tech": "react.js, nginx, css",
     "link": "http://www.tenshabu.com",
-    "source": "https://github.com/cjfaquino/tenshabu"
+    "source": "https://github.com/cjfaquino/react-tenshabu"
   },
 
   {
     "name": "Portfolio",
-    "img": "/imgs/portfolio.png",
+    "img": "/imgs/portfolio.jpg",
     "tech": "react.js, css",
     "link": "https://cjfaquino.com",
     "source": "https://github.com/cjfaquino/cjfaquino.github.io/"
@@ -17,15 +17,15 @@
 
   {
     "name": "YelpCamp",
-    "img": "/imgs/yelpcamp.png",
+    "img": "/imgs/yelpcamp.jpg",
     "tech": "mongoDB, node.js, express, passport, css",
     "link": "https://yelpcamp-cjfaquino.wn.r.appspot.com/",
-    "source": "https://github.com/cjfaquino/yelpcamp"
+    "source": "https://github.com/cjfaquino/node-yelpcamp"
   },
 
   {
     "name": "Forkify",
-    "img": "/imgs/forkify.png",
+    "img": "/imgs/forkify.jpg",
     "tech": "js, webpack, babel",
     "link": "https://cjfaquino.com/forkify",
     "source": "https://github.com/cjfaquino/forkify"
@@ -33,7 +33,7 @@
 
   {
     "name": "Budgety",
-    "img": "/imgs/budgety.png",
+    "img": "/imgs/budgety.jpg",
     "tech": "js",
     "link": "https://cjfaquino.com/budgety",
     "source": "https://github.com/cjfaquino/budgety"

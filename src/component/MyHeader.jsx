@@ -11,7 +11,7 @@ export default function MyHeader(props) {
           to={props.open ? 'projects' : ''}
           spy={true}
           smooth={true}
-          delay={50}
+          delay={100}
           duration={700}
           onClick={() => {
             props.setOpen(props.open);
