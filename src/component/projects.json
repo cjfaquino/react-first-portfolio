@@ -27,7 +27,7 @@
     "name": "Forkify",
     "img": "/imgs/forkify.jpg",
     "tech": "js, webpack, babel",
-    "link": "https://cjfaquino.com/forkify",
+    "link": "https://forkify.cjfaquino.com",
     "source": "https://github.com/cjfaquino/forkify"
   },
 
@@ -35,7 +35,7 @@
     "name": "Budgety",
     "img": "/imgs/budgety.jpg",
     "tech": "js",
-    "link": "https://cjfaquino.com/budgety",
+    "link": "https://budgety.cjfaquino.com",
     "source": "https://github.com/cjfaquino/budgety"
   }
 ]
