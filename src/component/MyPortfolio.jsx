@@ -7,8 +7,7 @@ export default function MyPortfolio() {
       <a href={item.link} alt={item.name}>
         <span className="hide">{item.name}</span>
       </a>
-      <img src={item.img} alt="" />
-
+      {item.img ? <img src={item.img} alt="" /> : <img src="/imgs/source.jpg" alt="" />}
       <div className="item__overlay">
         <h3>{item.name}</h3>
         <div className="item__body">
