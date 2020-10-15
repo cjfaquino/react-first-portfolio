@@ -19,7 +19,7 @@
     "name": "YelpCamp",
     "img": "/imgs/yelpcamp.jpg",
     "tech": "mongoDB, node.js, express, passport, css",
-    "link": "https://yelpcamp-cjfaquino.wn.r.appspot.com/",
+    "link": "https://yelpcamp.cjfaquino.com/",
     "source": "https://github.com/cjfaquino/node-yelpcamp"
   },
 
