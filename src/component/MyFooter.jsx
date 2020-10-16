@@ -1,4 +1,7 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGithubSquare, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { faEnvelopeSquare, faStreetView } from '@fortawesome/free-solid-svg-icons';
 
 export default function MyFooter() {
   return (
@@ -7,16 +10,16 @@ export default function MyFooter() {
         <img src="/imgs/0.jpg" alt="" />
         <div className="info">
           <span>
-            <i className="fas fa-address-card"></i> Los Angeles, CA
+            <FontAwesomeIcon icon={faStreetView} /> Los Angeles, CA
           </span>
           <a href="https://www.linkedin.com/in/cjfaquino/">
-            <i className="fab fa-linkedin"></i> LinkedIn
+            <FontAwesomeIcon icon={faLinkedin} /> LinkedIn
           </a>
           <a href="https://github.com/cjfaquino">
-            <i className="fab fa-github-square"></i> GitHub
+            <FontAwesomeIcon icon={faGithubSquare} /> GitHub
           </a>
           <a href="mailto:cjfaquino@outlook.com">
-            <i className="fas fa-envelope-square"></i> Email
+            <FontAwesomeIcon icon={faEnvelopeSquare} /> Email
           </a>
         </div>
       </div>
