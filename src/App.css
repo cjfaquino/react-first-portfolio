@@ -55,7 +55,7 @@ h4,
 header {
   height: 100vh;
   background-color: var(--accent-color);
-  background: url(/imgs/laptop.jpg) no-repeat;
+  background: url(/imgs/laptop70.jpg) no-repeat;
   background-position: bottom;
   background-size: cover;
   z-index: 1;
@@ -129,10 +129,10 @@ header {
 .projectsClose {
   cursor: pointer;
   flex-basis: 100%;
+  font-size: 0.7em;
   color: rgb(141, 141, 141);
   background-color: rgb(240, 240, 240);
-  border-top-left-radius: 100%;
-  border-top-right-radius: 100%;
+  transition: 500ms;
 }
 
 .item {
@@ -265,5 +265,5 @@ footer .container {
 
 /*  */
 .ReactCollapse--collapse {
-  transition: height 700ms;
+  transition: ease-out 700ms;
 }
