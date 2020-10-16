@@ -14,7 +14,7 @@ export default function App() {
     <div className="App">
       <MyHeader open={!open} setOpen={setOpen} />
       <Collapse isOpened={open}>
-        <MyPortfolio />
+        <MyPortfolio open={!open} setOpen={setOpen} />
       </Collapse>
       <MyFooter />
     </div>

@@ -9,7 +9,7 @@
   display: none;
 }
 html {
-  background-color: var(--sub-color);
+  background-color: var(--project-color);
 }
 @media (max-width: 350px) {
   * {
@@ -115,7 +115,7 @@ header {
 #projects {
   height: 100%;
   background-color: var(--project-color);
-  padding: 1em 0.5em;
+  padding: 1em 0 0 0;
   margin-bottom: 25px;
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
@@ -124,6 +124,15 @@ header {
   justify-content: center;
   box-shadow: 0.1rem 0.1rem 1rem rgba(0, 0, 0, 0.336);
   overflow: hidden;
+}
+
+.projectsClose {
+  cursor: pointer;
+  flex-basis: 100%;
+  color: rgb(141, 141, 141);
+  background-color: rgb(240, 240, 240);
+  border-top-left-radius: 100%;
+  border-top-right-radius: 100%;
 }
 
 .item {
@@ -215,7 +224,7 @@ header {
 }
 
 footer {
-  background-color: var(--sub-color);
+  background-color: var(--project-color);
 }
 
 footer a {
@@ -232,6 +241,11 @@ footer .container {
   align-items: center;
   padding-left: 20px;
   padding-bottom: 20px;
+}
+
+#contact,
+#contact a {
+  color: #4b4b4b;
 }
 
 .info {

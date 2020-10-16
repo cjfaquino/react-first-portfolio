@@ -1,7 +1,9 @@
+import { faAngleDoubleUp } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import project from './projects.json';
 
-export default function MyPortfolio() {
+export default function MyPortfolio(props) {
   const listItems = project.map((item) => (
     <div className="item" key={item.name}>
       <a href={item.link} alt={item.name}>
@@ -19,6 +21,13 @@ export default function MyPortfolio() {
   return (
     <main id="projects" className="container">
       {listItems}
+      <FontAwesomeIcon
+        className="projectsClose"
+        icon={faAngleDoubleUp}
+        onClick={() => {
+          props.setOpen(props.open);
+        }}
+      />
     </main>
   );
 }
