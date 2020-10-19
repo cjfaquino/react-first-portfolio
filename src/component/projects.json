@@ -16,10 +16,18 @@
   },
 
   {
+    "name": "CSS Visualizer",
+    "img": "/imgs/cssvis.jpg",
+    "tech": "react.js, css",
+    "link": "http://css.cjfaquino.com",
+    "source": "https://github.com/cjfaquino/react-cssvisualizer"
+  },
+
+  {
     "name": "YelpCamp",
     "img": "/imgs/yelpcamp.jpg",
     "tech": "mongoDB, node.js, express, passport, css",
-    "link": "https://yelpcamp.cjfaquino.com/",
+    "link": "https://yelpcamp-292601.uc.r.appspot.com/",
     "source": "https://github.com/cjfaquino/node-yelpcamp"
   },
 
