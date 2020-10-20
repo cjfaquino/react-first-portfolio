@@ -29,6 +29,7 @@ h2 {
 
 h3 {
   color: var(--accent-color);
+  font-weight: 400;
 }
 
 h4,
@@ -70,6 +71,7 @@ header {
   color: white;
   padding: 10px;
   overflow: hidden;
+  transition: 1000ms;
 }
 
 @media (max-width: 1700px) {
