@@ -245,6 +245,16 @@ footer .container {
   padding-bottom: 20px;
 }
 
+.location {
+  float: left;
+  margin-top: 1em;
+}
+
+.footerLinks {
+  float: right;
+  transform: translateY(25%);
+}
+
 #contact,
 #contact a {
   color: #4b4b4b;
@@ -256,13 +266,12 @@ footer .container {
 
 .info a,
 .info span {
-  display: block;
-  padding: 5px 0px;
+  margin-right: 1em;
   font-size: 0.7em;
 }
 
 .info svg {
-  font-size: 1.5em;
+  font-size: 1em;
 }
 
 /*  */
